@@ -1,42 +1,70 @@
-#root {
-  max-width: 1280px;
+#root{
+  width: 600px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.upper{
+  background-color: red;
+  display: flex;
+  height: 350px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.upper-left{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.bedroom-one{
+  background-color: rgb(48, 128, 174);
+  height: 250px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.full-bath{
+  background-color: rgb(52, 143, 79);
+  height: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.upper-right{
+  background-color: purple;
+  display: flex;
+  width: 60%;
 }
-
-.card {
-  padding: 2em;
+.living-room{
+  background-color: rgb(199, 168, 131);
+  width: 70%;
 }
-
-.read-the-docs {
-  color: #888;
+.kitchen{
+  background-color: rgb(230, 166, 37);
+  width: 30%;
+}
+.lower{
+  display: flex;
+  height: 250px;
+}
+.bedroom-two{
+  background-color: rgb(48, 128, 174);
+  height: 250px;
+  width: 40%;
+}
+.half-bath{
+  background-color: rgb(52, 143, 79);
+  height: 250px;
+  width: 20%
+}
+.bedroom-three{
+  background-color: rgb(48, 128, 174);
+  height: 250px;
+  width: 40%;
+}
+.appliances{
+  background-color: red;
+  display: flex;
+  height: 50px;
+}
+.oven{
+  background-color: rgb(150, 45, 45);
+  width: 50%;
+}
+.sink{
+  background-color: rgb(184, 94, 46);
+  width: 50%;
 }
